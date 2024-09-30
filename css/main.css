@@ -1,0 +1,25 @@
+h1{
+	font-size: 80px;
+	color: aliceblue;
+	text-align: center;
+}
+.center {
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	font-family: "华文琥珀";
+	font-size: 25px;
+	color: #0055ff;
+}
+a:hover{
+	color: #ff0000;
+	font-size: 30px;
+}
+body{
+	background: no-repeat;
+	background-size: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-image: url("https://api.imlazy.ink/img");
+}
