@@ -16,7 +16,7 @@ try {
 	live2d_settings['waifuEdgeSide'] = 'left:0'; // 看板娘贴边方向
 	live2d_settings['waifuToolFont'] = '20px'; // 工具栏字体
 	live2d_settings['waifuToolLine'] = '30px'; // 工具栏行高
-	live2d_settings['waifuToolTop'] = '0px'; // 工具栏顶部边距
+	live2d_settings['waifuToolTop'] = '-80px'; // 工具栏顶部边距
 	live2d_settings['waifuDraggable'] = 'axis-x'; // 拖拽样式
     /* 在 initModel 前添加 */
     initModel('assets/waifu-tips.json');
