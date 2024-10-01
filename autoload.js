@@ -4,7 +4,6 @@ try {
     $.ajax({url: 'assets/waifu-tips.min.js',dataType:"script", cache: true, async: false});
     $.ajax({url: 'assets/live2d.min.js',dataType:"script", cache: true, async: false});
     /* 可直接修改部分参数 */
-    live2d_settings['hitokotoAPI'] = 'j.cn';  // 一言 API
     live2d_settings['modelId'] = 1;                  // 默认模型 ID
     live2d_settings['modelTexturesId'] = 5;          // 默认材质 ID
     /* 在 initModel 前添加 */
