@@ -1,8 +1,3 @@
-var httpRequest = new XMLHttpRequest();
-httpRequest.open("GET","https://www.baidu.com");
-//httpRequest.setRequestHeader("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36 Edg/127.0.0.0");
-httpRequest.send();
-httpRequest.onreadystatechange = () => {
-  console.log(httpRequest.status);
-  console.log(httpRequest);
-}
+var script = document.createElement('script');
+script.src = 'https://api.example.com/data?callback=handleResponse'; // 替换为实际的 API URL
+document.body.appendChild(script);
