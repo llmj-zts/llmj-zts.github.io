@@ -6,6 +6,11 @@ try {
     /* 可直接修改部分参数 */
     live2d_settings['modelId'] = 1;                  // 默认模型 ID
     live2d_settings['modelTexturesId'] = 5;          // 默认材质 ID
+    live2d_settings['modelStorage']         = false;
+    live2d_settings['showF12Status']        = true;
+    live2d_settings['homePageUrl']          = 'index.html';       // 主页地址，可选 'auto'(自动), '{URL 网址}'
+    live2d_settings['aboutPageUrl']         = 'https://www.fghrsh.net/post/123.html';   // 关于页地址, '{URL 网址}'
+    live2d_settings['screenshotCaptureName']= 'llmj.png'; // 看板娘截图文件名，例如 'live2d.png'
     /* 在 initModel 前添加 */
     initModel('assets/waifu-tips.json');
 } catch(err) { console.log('[Error] JQuery is not defined.') }
