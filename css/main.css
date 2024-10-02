@@ -9,17 +9,16 @@ h1{
 a{
 	text-decoration: none;
 	font-family: "华文琥珀";
-	font-size: 25px;
+	font-size: 30px;
 	color: #0055ff;
 }
 a:hover{
 	color: #ff0000;
-	font-size: 30px;
+	font-size: 35px;
 }
 body{
 	background: no-repeat;
 	background-size: 100%;
 	background-attachment: fixed;
 	background-position: center;
-	background-image: url("https://api.imlazy.ink/img");
 }
