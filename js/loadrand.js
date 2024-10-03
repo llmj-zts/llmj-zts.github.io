@@ -2,9 +2,11 @@ const apilists=['https://cdn.imlazy.ink:233/img/background/98941448_p0.png', 'ht
 const randmusic=['https://yhsb.llmj.cloudns.ch/music/j.mp3','https://yhsb.llmj.cloudns.ch/music/n.mp3','https://yhsb.llmj.cloudns.ch/music/t.mp3','https://yhsb.llmj.cloudns.ch/music/m.mp3','https://yhsb.llmj.cloudns.ch/music/lq.mp3']
 const randimg=['https://yhsb.llmj.cloudns.ch/picture/kunb.png','https://yhsb.llmj.cloudns.ch/picture/kun.png','https://yhsb.llmj.cloudns.ch/picture/memes.png','https://yhsb.llmj.cloudns.ch/picture/kunkun.png','https://yhsb.llmj.cloudns.ch/picture/lq.png']
 const randtitle=['嘻嘻嘻','儿子回来啦','乌蒙山连着山外山','又是美好的一天','你还在等什么呢']
+const timerun=['#ffffff','#aaffff','#00ffff','#00aaff','#0055ff','#0000ff']
 const rand=Math.floor(Math.random()*apilists.length);
 const ikun=document.getElementById("ikun");
 const title=document.getElementById("(～￣▽￣)～")
+const now=new Date();
 var audio=new Audio("https://yhsb.llmj.cloudns.ch/music/奢香夫人.mp3");
 var ruingingaudio=false;
 var ment=document.body;
@@ -30,10 +32,8 @@ function kun(){
 	ikun.width=window.innerWidth;
 	ikun.height=window.innerHeight;
 	var mykun=ikun.getContext("2d");
-	for(i=0;i<10;i++){
-		var x=event.clientX;
-		var y=event.clientY;//增加准确率
-	}
+	var x=event.clientX;
+	var y=event.clientY;
 	var opacity=0.2;
 	function drawkun(){
 		mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
@@ -49,7 +49,7 @@ function kun(){
 			mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
 			return;}
 		requestAnimationFrame(drawkun);
-	}drawkun();//IKUN!！！！！！
+	}setTimeout(drawkun,260);//IKUN!！！！！！
 }
 
 function change(){
