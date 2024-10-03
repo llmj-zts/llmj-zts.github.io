@@ -32,7 +32,6 @@ function kun(){
 	var mykun=ikun.getContext("2d");
 	var x=event.clientX;
 	var y=event.clientY;
-	console.log(x,y);
 	function drawkun(){
 		mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
 		mykun.drawImage(img,x-50,y-50,100,100);
