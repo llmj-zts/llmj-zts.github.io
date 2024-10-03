@@ -9,7 +9,6 @@ var audio=new Audio("https://yhsb.llmj.cloudns.ch/music/奢香夫人.mp3");
 var ruingingaudio=false;
 var ment=document.body;
 ment.style.backgroundImage='url('+apilists[rand]+')';
-console.log(window.innerWidth,window.innerHeight);
 function playaudio(){
 	if (ruingingaudio)return;
 	ruingingaudio=true;
@@ -36,7 +35,6 @@ function kun(){
 		var y=event.clientY;//增加准确率
 	}
 	var opacity=0.2;
-	console.log(x,y);
 	function drawkun(){
 		mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
 		mykun.drawImage(img,x-50,y-50,100,100);
