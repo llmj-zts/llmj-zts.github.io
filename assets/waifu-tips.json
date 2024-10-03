@@ -1,7 +1,7 @@
 {
     "waifu": {
         "console_open_msg": ["哈哈，你打开了控制台，是想要看看我的秘密吗？"],
-        "copy_message": ["你都复制了些什么呀，转载要记得加上出处哦"],
+        "copy_message": ["有啥好复制的，真搞不懂奇葩人类"],
         "screenshot_message": ["照好了，你爸我真帅"],
         "hidden_message": ["大逆不道！！！"],
         "load_rand_textures": ["还没饱?", "洒家的新衣服好看嘛(*/ω＼*)"],
@@ -17,12 +17,12 @@
             "default": ["嗨~ 快来逗我玩吧！"]
         },
         "referrer_message": {
-            "localhost": ["和你爹我击拳吧!!!"],
+            "localhost": ["和你爹钟太帅击拳吧!!!"],
             "baidu": ["Hello! 来自 百度搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
             "so": ["Hello! 来自 360搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
             "google": ["Hello! 来自 谷歌搜索 的朋友<br>欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "],
             "default": ["Hello! 来自 <span style=\"color:#0099cc;\">", "</span> 的朋友"],
-            "none": ["和你爹我击拳吧!!!"]
+            "none": ["和你爹钟太帅击拳吧!!!"]
         },
         "referrer_hostname": {
             "example.com": ["示例网站"],
@@ -46,13 +46,13 @@
         { "selector": ".fui-eye", "text": ["看你爸还不顺眼？"] },
         { "selector": ".fui-user", "text": ["换没换差不多的吧？还是你觉得酱料不够你吃？"] },
         { "selector": ".fui-photo", "text": ["和你爹合影？"] },
-        { "selector": ".fui-info-circle", "text": ["这里有关于我的信息呢"] },
+        { "selector": ".fui-info-circle", "text": ["千万别打开，是黄油！！！"] },
         { "selector": ".fui-cross", "text": ["你要对你爹干什么..."] },
         { "selector": "#tor_show", "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"] },
         { "selector": "#comment_go", "text": ["想要去评论些什么吗？"] },
         { "selector": "#night_mode", "text": ["深夜时要爱护眼睛呀"] },
         { "selector": "#qrcode", "text": ["手机扫一下就能继续看，很方便呢"] },
-        { "selector": ".comment_reply", "text": ["要吐槽些什么呢"] },
+        { "selector": ".comment_reply", "text": ["你要开始狗叫了？"] },
         { "selector": "#back-to-top", "text": ["回到开始的地方吧"] },
         { "selector": "#author", "text": ["该怎么称呼你呢"] },
         { "selector": "#mail", "text": ["留下你的邮箱，不然就是无头像人士了"] },
