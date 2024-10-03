@@ -45,7 +45,6 @@ function kun(){
 		if(y+50>window.innerHeight){
 			speed=-20;//速度，控制下落
 		}
-		console.log((y+50)/window.innerHeight);
 		if((y+50)>window.innerHeight-250&&x<280){
 			mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
 			return;}
