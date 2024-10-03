@@ -15,7 +15,7 @@ function playaudio(){
 	setTimeout(()=>button.remove(),800);
 	var audio=new Audio("https://yhsb.llmj.cloudns.ch/music/奢香夫人.mp3");
 	console.log(audio)
-	audio.currentTime=1.5;
+	audio.currentTime=2;
 	audio.play();}//因为开启动画是瞬间的，所以不用考虑先后
 	
 function kun(){
