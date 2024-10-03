@@ -2,9 +2,9 @@
     "waifu": {
         "console_open_msg": ["哈哈，你打开了控制台，是想要看看我的秘密吗？"],
         "copy_message": ["你都复制了些什么呀，转载要记得加上出处哦"],
-        "screenshot_message": ["照好了嘛，是不是很可爱呢？"],
-        "hidden_message": ["我们还能再见面的吧…"],
-        "load_rand_textures": ["我还没有其他衣服呢", "我的新衣服好看嘛"],
+        "screenshot_message": ["照好了，你爸我真帅"],
+        "hidden_message": ["大逆不道！！！"],
+        "load_rand_textures": ["还没饱?", "洒家的新衣服好看嘛(*/ω＼*)"],
         "hour_tips": {
             "t5-7": ["早上好！一日之计在于晨，美好的一天就要开始了"],
             "t7-11": ["上午好！工作顺利嘛，不要久坐，多起来走动走动哦！"],
@@ -17,12 +17,12 @@
             "default": ["嗨~ 快来逗我玩吧！"]
         },
         "referrer_message": {
-            "localhost": ["和你爹我击拳吧!!!", " - "],
+            "localhost": ["和你爹我击拳吧!!!"],
             "baidu": ["Hello! 来自 百度搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
             "so": ["Hello! 来自 360搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
             "google": ["Hello! 来自 谷歌搜索 的朋友<br>欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "],
             "default": ["Hello! 来自 <span style=\"color:#0099cc;\">", "</span> 的朋友"],
-            "none": ["和你爹我击拳吧!!!", " - "]
+            "none": ["和你爹我击拳吧!!!"]
         },
         "referrer_hostname": {
             "example.com": ["示例网站"],
@@ -41,13 +41,13 @@
     },
     "mouseover": [
         { "selector": ".container a[href^='http']", "text": ["要看看 <span style=\"color:#0099cc;\">{text}</span> 么？"] },
-        { "selector": ".fui-home", "text": ["点击前往首页，想回到上一页可以使用浏览器的后退功能哦"] },
-        { "selector": ".fui-chat", "text": ["一言一语，一颦一笑。一字一句，一颗赛艇。"] },
-        { "selector": ".fui-eye", "text": ["嗯··· 要切换 看板娘 吗？"] },
-        { "selector": ".fui-user", "text": ["喜欢换装 Play 吗？"] },
-        { "selector": ".fui-photo", "text": ["要拍张纪念照片吗？"] },
+        { "selector": ".fui-home", "text": ["点击前往首页，想回到上一页用浏览器的后退功能,我懒得自己做"] },
+        { "selector": ".fui-chat", "text": ["找爸爸有什么事?"，"你知道为了让儿子们可以下壁纸我多难吗?","电脑和手机版打开不一样的哦","其实是因为之前手欠删了旧网站，才做新的"] },
+        { "selector": ".fui-eye", "text": ["看你爸还不顺眼？"] },
+        { "selector": ".fui-user", "text": ["换没换差不多的吧？还是你觉得酱料不够你吃？"] },
+        { "selector": ".fui-photo", "text": ["和你爹合影？"] },
         { "selector": ".fui-info-circle", "text": ["这里有关于我的信息呢"] },
-        { "selector": ".fui-cross", "text": ["你不喜欢我了吗..."] },
+        { "selector": ".fui-cross", "text": ["你要对你爹干什么..."] },
         { "selector": "#tor_show", "text": ["翻页比较麻烦吗，点击可以显示这篇文章的目录呢"] },
         { "selector": "#comment_go", "text": ["想要去评论些什么吗？"] },
         { "selector": "#night_mode", "text": ["深夜时要爱护眼睛呀"] },
@@ -70,17 +70,17 @@
         { "selector": "c-player div.volume", "text": ["在这里可以调整<span style=\"color:#0099cc;\">音量</span>呢"] },
         { "selector": "c-player div.list-button", "text": ["<span style=\"color:#0099cc;\">播放列表</span>里都有什么呢"] },
         { "selector": "c-player div.lyric-button", "text": ["有<span style=\"color:#0099cc;\">歌词</span>的话就能跟着一起唱呢"] },
-        { "selector": ".waifu #live2d", "text": ["干嘛呢你，快把手拿开", "鼠…鼠标放错地方了！"] }
+        { "selector": ".waifu #live2d", "text": ["我看你真的是饿了(*///▽///*)", "其实我家还蛮大的"] }
     ],
     "click": [
         {
             "selector": ".waifu #live2d",
             "text": [
-                "是…是不小心碰到了吧",
-                "萝莉控是什么呀",
-                "你看到我的小熊了吗",
-                "再摸的话我可要报警了！⌇●﹏●⌇",
-                "110吗，这里有个变态一直在摸我(ó﹏ò｡)"
+                "找爸爸有什么事吗",
+                "钟太帅最帅了",
+                "再碰，骨灰都给你扬了",
+                "你真啥都吃！⌇●﹏●⌇",
+                "逆天，被变态盯上了，赶紧跑路(ó﹏ò｡)"
             ]
         }
     ],
