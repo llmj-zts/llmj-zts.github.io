@@ -69,9 +69,9 @@ body{
 	background-position: center;
 }
 canvas{
-	position: fixed;//固定位置
+	position: fixed;/*固定位置*/
 	top: 0;
 	left: 0;
-	z-index: 999;//顶层
-	pointer-events: none;//可以透过画布直接点
+	z-index: 999;/*顶层*/
+	pointer-events: none;/*可以透过画布直接点*/
 }
