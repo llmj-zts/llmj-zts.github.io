@@ -9,7 +9,7 @@ var audio=new Audio("https://yhsb.llmj.cloudns.ch/music/奢香夫人.mp3");
 var ruingingaudio=false;
 var ment=document.body;
 ment.style.backgroundImage='url('+apilists[rand]+')';
-
+console.log(window.innerWidth,window.innerHeight);
 function playaudio(){
 	if (ruingingaudio)return;
 	ruingingaudio=true;
@@ -31,17 +31,24 @@ function kun(){
 	ikun.width=window.innerWidth;
 	ikun.height=window.innerHeight;
 	var mykun=ikun.getContext("2d");
-	var x=event.clientX;
-	var y=event.clientY;
+	for(i=0;i<10;i++){
+		var x=event.clientX;
+		var y=event.clientY;//增加准确率
+	}
+	var opacity=0.2;
+	console.log(x,y);
 	function drawkun(){
 		mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
 		mykun.drawImage(img,x-50,y-50,100,100);
+		ikun.style.opacity=opacity;
 		y+=speed;
+		opacity+=0.05;
 		speed+=1;
 		if(y+50>window.innerHeight){
 			speed=-20;//速度，控制下落
 		}
-		if(y+50>748&&x<314){
+		console.log((y+50)/window.innerHeight);
+		if((y+50)>window.innerHeight-250&&x<280){
 			mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
 			return;}
 		requestAnimationFrame(drawkun);
@@ -51,12 +58,12 @@ function kun(){
 function change(){
 	if(document.hidden){
 		audio.pause();
-		title.textContent="不要走(っ °Д °;)";
+		title.textContent="(っ °Д °;)不要走";
 	}
 	else{
 		audio.play();
 		var randm=Math.floor(Math.random()*randtitle.length)
-		title.textContent=randtitle[randm]+"(～￣▽￣)～";
+		title.textContent="(～￣▽￣)～"+randtitle[randm];
 	}
 }
 //识别炎拳
