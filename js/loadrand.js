@@ -2,11 +2,11 @@ const apilists=['https://cdn.imlazy.ink:233/img/background/98941448_p0.png', 'ht
 const randmusic=['https://yhsb.llmj.cloudns.ch/music/j.mp3','https://yhsb.llmj.cloudns.ch/music/n.mp3','https://yhsb.llmj.cloudns.ch/music/t.mp3','https://yhsb.llmj.cloudns.ch/music/m.mp3','https://yhsb.llmj.cloudns.ch/music/lq.mp3']
 const randimg=['https://yhsb.llmj.cloudns.ch/picture/kunb.png','https://yhsb.llmj.cloudns.ch/picture/kun.png','https://yhsb.llmj.cloudns.ch/picture/memes.png','https://yhsb.llmj.cloudns.ch/picture/kunkun.png','https://yhsb.llmj.cloudns.ch/picture/lq.png']
 const randtitle=['嘻嘻嘻','儿子回来啦','乌蒙山连着山外山','又是美好的一天','你还在等什么呢']
-const timerun=['#ffffff','#aaffff','#00ffff','#00aaff','#0055ff','#0000ff']
+const timerun=['#aaffff','#00aaff','#0055ff','#0000ff']
 const rand=Math.floor(Math.random()*apilists.length);
 const ikun=document.getElementById("ikun");
-const title=document.getElementById("(～￣▽￣)～")
-const now=new Date();
+const title=document.getElementById("(～￣▽￣)～");
+const now=Math.floor(new Date().getHours()/6);
 var audio=new Audio("https://yhsb.llmj.cloudns.ch/music/奢香夫人.mp3");
 var ruingingaudio=false;
 var ment=document.body;
@@ -24,7 +24,7 @@ function playaudio(){
 	
 function kun(){
 	const img=new Image();
-	var speed=10;
+	var speed=15;
 	var randm=Math.floor(Math.random()*randmusic.length);
 	var music=new Audio(randmusic[randm]);
 	music.play()//先放音乐
@@ -34,13 +34,28 @@ function kun(){
 	var mykun=ikun.getContext("2d");
 	var x=event.clientX;
 	var y=event.clientY;
-	var opacity=0.2;
+	var opacity=0;
+	function jumpkun(){
+		mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
+		mykun.drawImage(img,x-50,y-50,100,100);
+		y-=speed;
+		opacity+=0.05
+		speed-=1;
+		if((y+50)>window.innerHeight-250&&x<280){
+			mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
+			return;}
+		if(speed<0){
+			drawkun();
+			return
+		}
+		else{requestAnimationFrame(jumpkun);}
+	}
 	function drawkun(){
 		mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
 		mykun.drawImage(img,x-50,y-50,100,100);
 		ikun.style.opacity=opacity;
 		y+=speed;
-		opacity+=0.05;
+		//opacity+=0.05;
 		speed+=1;
 		if(y+50>window.innerHeight){
 			speed=-20;//速度，控制下落
@@ -48,8 +63,8 @@ function kun(){
 		if((y+50)>window.innerHeight-250&&x<280){
 			mykun.clearRect(0,0,window.innerWidth,window.innerHeight);
 			return;}
-		requestAnimationFrame(drawkun);
-	}setTimeout(drawkun,260);//IKUN!！！！！！
+		else{requestAnimationFrame(drawkun);}
+	}jumpkun();//IKUN!！！！！！
 }
 
 function change(){
@@ -62,6 +77,20 @@ function change(){
 		var randm=Math.floor(Math.random()*randtitle.length)
 		title.textContent="(～￣▽￣)～"+randtitle[randm];
 	}
+}
+function date(){
+	var a=document.querySelectorAll("a");
+	var link=document.querySelectorAll("#link");
+	a.forEach((css)=>{
+		if (css.id!="title"){
+			css.style.color=timerun[now];
+			css.addEventListener('mouseover',()=>css.style.color="#ff0000");
+			css.addEventListener('mouseout',()=>css.style.color=timerun[now]);
+		}});
+	link.forEach((css)=>{
+		css.style.color=timerun[now];
+		css.addEventListener('mouseout',()=>css.style.color=timerun[now]);
+		});
 }
 //识别炎拳
 var button=document.getElementById("炎拳");
@@ -76,3 +105,5 @@ download.addEventListener('mouseover',()=>download.textContent="下载壁纸");
 download.addEventListener('mouseout',()=>download.textContent=text);
 //(～￣▽￣)～
 document.addEventListener('visibilitychange',change);
+//按时间变颜色
+date();
