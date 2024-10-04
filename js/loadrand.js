@@ -9,6 +9,11 @@ const rand=Math.floor(Math.random()*apilists.length);
 const ikun=document.getElementById("ikun");
 const title=document.getElementById("(～￣▽￣)～");
 const now=Math.floor(new Date().getHours()/6);
+var listimg=[];//预加载防止空跳kun出现
+for(i=0;i<5;i++){
+	var img=new Image();
+	img.src=randimg[i];
+	listimg[i]=img;}
 var audio=new Audio(musicrun[thispage]);
 var ruingingaudio=false;
 var ment=document.body;
@@ -25,12 +30,11 @@ function playaudio(){
 	audio.play();}//因为开启动画是瞬间的，所以不用考虑先后
 	
 function kun(){
-	const img=new Image();
 	var speed=15;
 	var randm=Math.floor(Math.random()*randmusic.length);
 	var music=new Audio(randmusic[randm]);
 	music.play()//先放音乐
-	img.src=randimg[randm];
+	const img=listimg[randm];
 	ikun.width=window.innerWidth;
 	ikun.height=window.innerHeight;
 	var mykun=ikun.getContext("2d");
@@ -81,6 +85,7 @@ function change(){
 		else{title.textContent="(～￣▽￣)～"+randtitle[randm];}
 	}
 }
+
 function date(){
 	var a=document.querySelectorAll("a");
 	var link=document.querySelectorAll("#link");
