@@ -17,12 +17,12 @@
             "default": ["嗨~ 快来逗我玩吧！"]
         },
         "referrer_message": {
-            "localhost": ["和你爹钟太帅击拳吧!!!","-"],
+            "localhost": ["-","和你爹钟太帅击拳吧!!!"],
             "baidu": ["Hello! 来自 百度搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
             "so": ["Hello! 来自 360搜索 的朋友<br>你是搜索 <span style=\"color:#0099cc;\">", "</span> 找到的我吗？"],
             "google": ["Hello! 来自 谷歌搜索 的朋友<br>欢迎阅读<span style=\"color:#0099cc;\">『", "』</span>", " - "],
             "default": ["Hello! 来自 <span style=\"color:#0099cc;\">", "</span> 的朋友"],
-            "none": ["和你爹钟太帅击拳吧!!!","-"]
+            "none": ["-","和你爹钟太帅击拳吧!!!"]
         },
         "referrer_hostname": {
             "example.com": ["示例网站"],
@@ -50,7 +50,9 @@
             "想当年我想今年",
             "真是逆天的一天",
             "你很能打？你能打有个屁用啊！混社会要有背景，你哪个道上的？",
-            "无为人父，爱子情深啊"
+            "无为人父，爱子情深啊",
+            "字颜色和时间有关，你发现了吗？",
+            "你明明什么也没听见不是吗？"
         ] },
         { "selector": ".fui-eye", "text": ["看你爸还不顺眼？"] },
         { "selector": ".fui-user", "text": ["换没换差不多的吧？还是你觉得酱料不够你吃？"] },
