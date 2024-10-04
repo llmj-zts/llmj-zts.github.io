@@ -7,7 +7,12 @@ try {
     live2d_settings['modelId'] = 1;                  // 默认模型 ID
     live2d_settings['modelTexturesId'] = 5;          // 默认材质 ID
     live2d_settings['modelStorage']         = false;
-    live2d_settings['showF12Status']        = true;
+	live2d_settings['showHitokoto']         = true;         // 显示一言
+	live2d_settings['showF12Status']        = true;         // 显示加载状态
+	live2d_settings['showF12Message']       = false;        // 显示看板娘消息
+	live2d_settings['showF12OpenMsg']       = true;         // 显示控制台打开提示
+	live2d_settings['showCopyMessage']      = true;         // 显示 复制内容 提示
+	live2d_settings['showWelcomeMessage']   = true;         // 显示进入面页欢迎词
     live2d_settings['homePageUrl']          = 'index.html';       // 主页地址，可选 'auto'(自动), '{URL 网址}'
     live2d_settings['aboutPageUrl']         = 'https://www.fghrsh.net/post/123.html';   // 关于页地址, '{URL 网址}'
     live2d_settings['screenshotCaptureName']= 'llmj.png'; // 看板娘截图文件名，例如 'live2d.png'
