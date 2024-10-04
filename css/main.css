@@ -81,3 +81,9 @@ canvas{
 	color: #0055ff;
 	user-select: none;//防止没事复制
 }
+#nextpage{
+	font-family: "华文琥珀";
+	font-size: 80px;
+	color: #0055ff;
+	user-select: none;
+}
