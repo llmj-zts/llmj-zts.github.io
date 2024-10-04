@@ -87,3 +87,6 @@ canvas{
 	color: #0055ff;
 	user-select: none;
 }
+.live2d{
+	z-index:999;
+}
