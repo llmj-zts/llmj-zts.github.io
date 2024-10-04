@@ -72,7 +72,7 @@ canvas{
 	position: fixed;/*固定位置*/
 	top: 0;
 	left: 0;
-	z-index: 999;/*顶层*/
+	z-index: 0;/*总之不能顶层*/
 	pointer-events: none;/*可以透过画布直接点*/
 }
 #link{
