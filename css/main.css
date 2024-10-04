@@ -75,3 +75,9 @@ canvas{
 	z-index: 999;/*顶层*/
 	pointer-events: none;/*可以透过画布直接点*/
 }
+#link{
+	font-family: "华文琥珀";
+	font-size: 30px;
+	color: #0055ff;
+	user-select: none;//防止没事复制
+}
