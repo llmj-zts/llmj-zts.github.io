@@ -85,7 +85,7 @@
     ],
     "click": [
         {
-            "selector": ".waifu #live2d",
+            "selector": ".fui-chat",
             "text": [
                 "找爸爸有什么事吗",
                 "钟太帅最帅了",
