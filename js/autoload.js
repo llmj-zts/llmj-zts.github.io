@@ -6,10 +6,10 @@ try {
     /* 可直接修改部分参数 */
     live2d_settings['modelId'] = 1;                  // 默认模型 ID
     live2d_settings['modelTexturesId'] = 5;          // 默认材质 ID
-    live2d_settings['modelStorage']         = false;
+    live2d_settings['modelStorage']         = true;
 	live2d_settings['showHitokoto']         = true;         // 显示一言
 	live2d_settings['showF12Status']        = true;         // 显示加载状态
-	live2d_settings['showF12Message']       = false;        // 显示看板娘消息
+	live2d_settings['showF12Message']       = true;        // 显示看板娘消息
 	live2d_settings['showF12OpenMsg']       = true;         // 显示控制台打开提示
 	live2d_settings['showCopyMessage']      = true;         // 显示 复制内容 提示
 	live2d_settings['showWelcomeMessage']   = true;         // 显示进入面页欢迎词
