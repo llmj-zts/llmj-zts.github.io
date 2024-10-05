@@ -98,7 +98,7 @@
             "字颜色和时间有关，你发现了吗？",
             "你明明什么也没听见不是吗？"
             ],
-            "selector": ".waifu ui-draggable ui-draggable-handle #live2d",
+            "selector": ".waifu.ui-draggable.ui-draggable-handle #live2d",
             "text": [
                 "找爸爸有什么事吗",
                 "钟太帅最帅了",
