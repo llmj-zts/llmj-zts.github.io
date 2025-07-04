@@ -93,7 +93,7 @@ function date(){
 	var a=document.querySelectorAll("a");
 	var link=document.querySelectorAll("#link");
 	a.forEach((css)=>{
-		if (css.id!="title"or css.class!="xr"){
+		if (css.id!="title"or css.id!="xr"){
 			css.style.color=timerun[now];
 			css.addEventListener('mouseover',()=>css.style.color="#ff0000");
 			css.addEventListener('mouseout',()=>css.style.color=timerun[now]);
