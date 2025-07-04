@@ -108,11 +108,16 @@ var button=document.getElementById("炎拳");
 button.addEventListener('click',playaudio);
 //ikun
 document.addEventListener('click',kun);
-//下载壁纸
+//导航栏
 var download=document.getElementById("title");
+var menu=document.getElementById("menu");
 var text=download.textContent;
-download.href=backgroundimg[rand].url;
-download.addEventListener('mouseover',()=>download.textContent="下载壁纸");
+function showmenu(){
+	menu.style.display="block";
+}
+menu.style.display="none";
+download.href="javascript:showmenu()";
+download.addEventListener('mouseover',()=>download.textContent="导航菜单");
 download.addEventListener('mouseout',()=>download.textContent=text);
 //(～￣▽￣)～
 document.addEventListener('visibilitychange',change);
