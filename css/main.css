@@ -52,7 +52,7 @@
 .bbt{
 	padding-bottom: 10px;
 }
-.xr{
+#xr{
 	all: unset;
 	font-size: 20px;
 	color: #778899;
@@ -62,7 +62,7 @@
 	color: #ffffff;
 	background-color: #0055ff;
 }
-.xr:hover{
+#xr:hover{
 	all: unset;
 	font-size: 21px;
 	color: #778899;
