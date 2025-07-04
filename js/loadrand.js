@@ -1,5 +1,9 @@
+//以下图片为api.imlazy.ink/v1/img?type=json提供，为防止跨域因此无法直接访问它的api
 $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
-	console.log(data);
+	const backgroundimg=data;
+	const rand=Math.floor(Math.random()*backgroundimg.length);
+	var ment=document.body;
+	ment.style.backgroundImage='url('+backgroundimg[rand].url+')';
 })
 const randmusic=['https://zts.llmj.dpdns.org/music/j.mp3','https://zts.llmj.dpdns.org/music/n.mp3','https://zts.llmj.dpdns.org/music/t.mp3','https://zts.llmj.dpdns.org/music/m.mp3','https://zts.llmj.dpdns.org/music/lq.mp3']
 const randimg=['https://zts.llmj.dpdns.org/picture/kunb.png','https://zts.llmj.dpdns.org/picture/kun.png','https://zts.llmj.dpdns.org/picture/memes.png','https://zts.llmj.dpdns.org/picture/kunkun.png','https://zts.llmj.dpdns.org/picture/lq.png']
@@ -7,7 +11,6 @@ const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你�
 const titlerun=['乌蒙山连着山外山','大河向东流啊']
 const musicrun=["https://zts.llmj.dpdns.org/music/奢香夫人.mp3",'https://zts.llmj.dpdns.org/music/好汉歌.mp3']
 const timerun=['#aaffff','#00aaff','#0055ff','#0000ff']
-const rand=Math.floor(Math.random()*apilists.length);
 const ikun=document.getElementById("ikun");
 const title=document.getElementById("(～￣▽￣)～");
 const now=Math.floor(new Date().getHours()/6);
@@ -18,8 +21,6 @@ for(i=0;i<5;i++){
 	listimg[i]=img;}
 var audio=new Audio(musicrun[thispage]);
 var ruingingaudio=false;
-var ment=document.body;
-ment.style.backgroundImage='url('+apilists[rand]+')';
 function playaudio(){
 	if (ruingingaudio)return;
 	ruingingaudio=true;
