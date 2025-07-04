@@ -57,16 +57,13 @@
 	font-size: 20px;
 	color: #778899;
 	cursor: pointer;
-	/*border: solid 1px #cccc;*/
 	border-radius: 5px;
 	margin: 20px;
 	color: #ffffff;
 	background-color: #0055ff;
 }
 .xr:hover{
-	all: unset;
 	color: #ff0000
-	font-size: 21px;
 }
 #title{
 	font-size: 80px;
