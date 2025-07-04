@@ -111,7 +111,7 @@ document.addEventListener('click',kun);
 //下载壁纸
 var download=document.getElementById("title");
 var text=download.textContent;
-download.href=apilists[rand];
+download.href=background[rand].url;
 download.addEventListener('mouseover',()=>download.textContent="下载壁纸");
 download.addEventListener('mouseout',()=>download.textContent=text);
 //(～￣▽￣)～
