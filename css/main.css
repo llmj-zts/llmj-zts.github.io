@@ -53,6 +53,7 @@
 	padding-bottom: 10px;
 }
 .xr{
+	all: unset;
 	font-size: 20px;
 	color: #778899;
 	cursor: pointer;
@@ -63,6 +64,7 @@
 	background-color: #0055ff;
 }
 .xr:hover{
+	all: unset;
 	color: #ff0000
 	font-size: 21px;
 }
