@@ -104,7 +104,7 @@ function date(){
 		});
 }
 function openwindow(numbers){
-	if numbers{
+	if (numbers){
 		window.open(musicrun[thispage],"_blank");
 	}
 	else{
