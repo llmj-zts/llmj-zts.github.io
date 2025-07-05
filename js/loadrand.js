@@ -4,6 +4,10 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 	const rand=Math.floor(Math.random()*backgroundimg.length);
 	var ment=document.body;
 	ment.style.backgroundImage='url('+backgroundimg[rand].url+')';
+	var wal=document.getElementsByName("下载壁纸");
+	wal[0].addEventListener("click",()=>{
+		window.open(backgroundimg[rand],"_blank")
+	});
 })
 const randmusic=['https://zts.llmj.dpdns.org/music/j.mp3','https://zts.llmj.dpdns.org/music/n.mp3','https://zts.llmj.dpdns.org/music/t.mp3','https://zts.llmj.dpdns.org/music/m.mp3','https://zts.llmj.dpdns.org/music/lq.mp3']
 const randimg=['https://zts.llmj.dpdns.org/picture/kunb.png','https://zts.llmj.dpdns.org/picture/kun.png','https://zts.llmj.dpdns.org/picture/memes.png','https://zts.llmj.dpdns.org/picture/kunkun.png','https://zts.llmj.dpdns.org/picture/lq.png']
@@ -104,13 +108,10 @@ function date(){
 		});
 }
 var msc=document.getElementsByName("下载音乐");
-var wal=document.getElementsByName("下载壁纸");
 msc[0].addEventListener("click",()=>{
 	window.open(musicrun[thispage],"_blank")
 });
-wal[0].addEventListener("click",()=>{
-	window.open(backgroundimg[rand],"_blank")
-});
+
 //识别炎拳
 var button=document.getElementById("炎拳");
 button.addEventListener('click',playaudio);
