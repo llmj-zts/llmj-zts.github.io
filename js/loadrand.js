@@ -109,7 +109,7 @@ msc.addEventListener("click",()=>{
 	window.open(musicrun[thispage],"_blank")
 });
 wal.addEventListener("click",()=>{
-	backgroundimg[rand],"_blank")
+	window.open(backgroundimg[rand],"_blank")
 });
 //识别炎拳
 var button=document.getElementById("炎拳");
