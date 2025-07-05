@@ -111,6 +111,10 @@ function openwindow(numbers){
 		window.open(backgroundimg[rand],"_blank");
 	}
 }
+var msc=document.getElementsByName("下载音乐");
+var wal=document.getElementsByName("下载壁纸");
+msc.style.href="javascript:openwindow()";
+wal.style.href="javascript:openwindow()";
 //识别炎拳
 var button=document.getElementById("炎拳");
 button.addEventListener('click',playaudio);
