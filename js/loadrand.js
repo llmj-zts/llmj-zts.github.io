@@ -13,7 +13,7 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 const randmusic=['https://zts.llmj.dpdns.org/music/j.mp3','https://zts.llmj.dpdns.org/music/n.mp3','https://zts.llmj.dpdns.org/music/t.mp3','https://zts.llmj.dpdns.org/music/m.mp3','https://zts.llmj.dpdns.org/music/lq.mp3']
 const randimg=['https://zts.llmj.dpdns.org/picture/kunb.png','https://zts.llmj.dpdns.org/picture/kun.png','https://zts.llmj.dpdns.org/picture/memes.png','https://zts.llmj.dpdns.org/picture/kunkun.png','https://zts.llmj.dpdns.org/picture/lq.png']
 const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢']
-const titlerun=['乌蒙山连着山外山','大河向东流啊']
+const titlerun=['乌蒙山连着山外山','大河向东流啊','苍茫的天涯是我的爱']
 const musicrun=["https://zts.llmj.dpdns.org/music/奢香夫人.mp3",'https://zts.llmj.dpdns.org/music/好汉歌.mp3','https://zts.llmj.dpdns.org/music/最炫民族风.mp3']
 const timerun=['#aaffff','#00aaff','#0055ff','#0000ff']
 const ikun=document.getElementById("ikun");
