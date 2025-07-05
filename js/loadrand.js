@@ -103,18 +103,14 @@ function date(){
 		css.addEventListener('mouseout',()=>css.style.color=timerun[now]);
 		});
 }
-function openwindow(numbers){
-	if (numbers){
-		window.open(musicrun[thispage],"_blank");
-	}
-	else{
-		window.open(backgroundimg[rand],"_blank");
-	}
-}
 var msc=document.getElementsByName("下载音乐");
 var wal=document.getElementsByName("下载壁纸");
-msc.href="javascript:openwindow()";
-wal.href="javascript:openwindow()";
+msc.addEventListener("click",()=>{
+	window.open(musicrun[thispage],"_blank")
+});
+wal.addEventListener("click",()=>{
+	backgroundimg[rand],"_blank")
+});
 //识别炎拳
 var button=document.getElementById("炎拳");
 button.addEventListener('click',playaudio);
