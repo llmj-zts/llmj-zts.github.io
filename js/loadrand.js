@@ -103,6 +103,14 @@ function date(){
 		css.addEventListener('mouseout',()=>css.style.color=timerun[now]);
 		});
 }
+function openwindow(number){
+	if number{
+		window.open(musicrun[thispage],"_blank");
+	}
+	else{
+		window.open(backgroundimg[rand],"_blank");
+	}
+}
 //识别炎拳
 var button=document.getElementById("炎拳");
 button.addEventListener('click',playaudio);
