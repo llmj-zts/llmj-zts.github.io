@@ -6,6 +6,7 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 	ment.style.backgroundImage='url('+backgroundimg[rand].url+')';
 	var wal=document.getElementsByName("下载壁纸");
 	wal[0].addEventListener("click",()=>{
+		alert("因为浏览器的安全包含，我无法强制发起下载请求，想要你自己右键保存图片")
 		window.open(backgroundimg[rand].url,"_blank")
 	});
 })
@@ -109,6 +110,7 @@ function date(){
 }
 var msc=document.getElementsByName("下载音乐");
 msc[0].addEventListener("click",()=>{
+	alert("因为浏览器的安全包含，我无法强制发起下载请求，想要你自己据链接下载")
 	window.open(musicrun[thispage],"_blank")
 });
 
