@@ -6,7 +6,7 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 	ment.style.backgroundImage='url('+backgroundimg[rand].url+')';
 	var wal=document.getElementsByName("下载壁纸");
 	wal[0].addEventListener("click",()=>{
-		window.open(backgroundimg[rand],"_blank")
+		window.open(backgroundimg[rand].url,"_blank")
 	});
 })
 const randmusic=['https://zts.llmj.dpdns.org/music/j.mp3','https://zts.llmj.dpdns.org/music/n.mp3','https://zts.llmj.dpdns.org/music/t.mp3','https://zts.llmj.dpdns.org/music/m.mp3','https://zts.llmj.dpdns.org/music/lq.mp3']
