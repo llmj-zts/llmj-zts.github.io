@@ -103,8 +103,8 @@ function date(){
 		css.addEventListener('mouseout',()=>css.style.color=timerun[now]);
 		});
 }
-function openwindow(number){
-	if number{
+function openwindow(numbers){
+	if numbers{
 		window.open(musicrun[thispage],"_blank");
 	}
 	else{
