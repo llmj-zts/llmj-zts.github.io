@@ -105,10 +105,10 @@ function date(){
 }
 var msc=document.getElementsByName("下载音乐");
 var wal=document.getElementsByName("下载壁纸");
-msc.addEventListener("click",()=>{
+msc[0].addEventListener("click",()=>{
 	window.open(musicrun[thispage],"_blank")
 });
-wal.addEventListener("click",()=>{
+wal[0].addEventListener("click",()=>{
 	window.open(backgroundimg[rand],"_blank")
 });
 //识别炎拳
