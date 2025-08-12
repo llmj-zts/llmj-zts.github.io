@@ -10,11 +10,11 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 		window.open(backgroundimg[rand].url,"_blank")
 	});
 })
-const randmusic=['https://zts.llmj.dpdns.org/music/j.mp3','https://zts.llmj.dpdns.org/music/n.mp3','https://zts.llmj.dpdns.org/music/t.mp3','https://zts.llmj.dpdns.org/music/m.mp3','https://zts.llmj.dpdns.org/music/lq.mp3']
+const randmusic=['https://gitee.com/zts_llmj/zts.llmj.github.io/raw/master/music/j.mp3','https://gitee.com/zts_llmj/zts.llmj.github.io/raw/master/music/n.mp3','https://gitee.com/zts_llmj/zts.llmj.github.io/raw/master/music/t.mp3','https://gitee.com/zts_llmj/zts.llmj.github.io/raw/master/music/m.mp3','https://gitee.com/zts_llmj/zts.llmj.github.io/raw/master/music/lq.mp3']
 const randimg=['https://youke1.picui.cn/s1/2025/08/10/68983b576d539.png','https://youke1.picui.cn/s1/2025/08/10/68983b600f6f9.png','https://youke1.picui.cn/s1/2025/08/10/68983b58887bf.png','https://youke1.picui.cn/s1/2025/08/10/68983b57c1502.png','https://youke1.picui.cn/s1/2025/08/10/68983b5ec70f9.png']
 const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢']
 const titlerun=['乌蒙山连着山外山','大河向东流啊']
-const musicrun=["https://zts.llmj.dpdns.org/music/奢香夫人.mp3",'https://zts.llmj.dpdns.org/music/好汉歌.mp3']
+const musicrun=["https://gitee.com/zts_llmj/zts.llmj.github.io/raw/master/music/奢香夫人.mp3",'https://gitee.com/zts_llmj/zts.llmj.github.io/raw/master/music/好汉歌.mp3']
 const timerun=['#aaffff','#00aaff','#0055ff','#0000ff']
 const ikun=document.getElementById("ikun");
 const title=document.getElementById("(～￣▽￣)～");
