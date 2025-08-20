@@ -4,4 +4,4 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img-phone.json",function(data){
 	const rand=Math.floor(Math.random()*backgroundimg.length);
 	var ment=document.body;
 	ment.style.backgroundImage='url('+backgroundimg[rand].url+')';
-}
+});
