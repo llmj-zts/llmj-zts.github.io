@@ -10,7 +10,7 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 		window.open(backgroundimg[rand].url,"_blank")
 	});
 })
-const randmusic=['https://zts.llmj.dpdns.org/music/j.mp3','https://zts.llmj.dpdns.org/music/n.mp3','https://zts.llmj.dpdns.org/music/t.mp3','https://zts.llmj.dpdns.org/music/m.mp3','https://zts.llmj.dpdns.org/music/lq.mp3']
+const randmusic=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/07273409337d9fa9/j.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e64416e0f13fafba/n.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/faad2da895e72f61/t.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c1ae83a0262c6a74/m.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/6ce8581ce79ef4ee/lq.mp3']
 const randimg=['https://youke1.picui.cn/s1/2025/08/10/68983b576d539.png','https://youke1.picui.cn/s1/2025/08/10/68983b600f6f9.png','https://youke1.picui.cn/s1/2025/08/10/68983b58887bf.png','https://youke1.picui.cn/s1/2025/08/10/68983b57c1502.png','https://youke1.picui.cn/s1/2025/08/10/68983b5ec70f9.png']
 const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢']
 const titlerun=['乌蒙山连着山外山','大河向东流啊']
@@ -134,3 +134,4 @@ download.addEventListener('mouseout',()=>download.textContent=text);
 document.addEventListener('visibilitychange',change);
 //按时间变颜色
 date();
+
