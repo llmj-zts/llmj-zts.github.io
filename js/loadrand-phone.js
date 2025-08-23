@@ -10,10 +10,10 @@ const randimg=['https://youke1.picui.cn/s1/2025/08/10/68983b576d539.png','https:
 function download(name){
 	$.getJSON("https://zts.llmj.dpdns.org/html-phone/do.json",function(data){
 		var size=data[name]["size"];
-		var instructl=data[name]["instrucl"];
-		var url=data[name]["url"]
+		var instruct=data[name]["instruct"];
+		var url=data[name]["url"];
+		var vartext="安装包大小: "+size+"\n介绍: "+instruct;
+		alert(vartext);
+		window.open(url,"_blank");
 	})
-	var vartext="安装包大小: "+size+"\n介绍: "+instruct;
-	alert(vartext);
-	window.open(url,"_blank");
 }
