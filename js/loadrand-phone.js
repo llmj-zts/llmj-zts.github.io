@@ -9,7 +9,6 @@ const randmusic=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41
 const randimg=['https://youke1.picui.cn/s1/2025/08/10/68983b576d539.png','https://youke1.picui.cn/s1/2025/08/10/68983b600f6f9.png','https://youke1.picui.cn/s1/2025/08/10/68983b58887bf.png','https://youke1.picui.cn/s1/2025/08/10/68983b57c1502.png','https://youke1.picui.cn/s1/2025/08/10/68983b5ec70f9.png']
 function download(instruct,size,url){
 	var vartext="安装包大小: "+size+"\n介绍: "+instruct;
-	var prefix="https://gitee.com/zts_llmj/cloudpan/raw/master/android/";
 	alert(vartext);
-	window.open(prefix+url,"_blank");
+	window.open(url,"_blank");
 }
