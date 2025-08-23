@@ -14,6 +14,7 @@ function download(name){
 		var url=data[name]["url"];
 		var vartext="安装包大小: "+size+"\n介绍: "+instruct;
 		alert(vartext);
-		window.open(url,"_blank");
+		window.open(url);
 	})
 }
+
