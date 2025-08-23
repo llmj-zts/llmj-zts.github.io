@@ -1,0 +1,27 @@
+{
+	"":{
+		"url":"",
+		"size":"",
+		"instruct":""
+	},
+	"Froid应用市场":{
+		"url":"https://d.feiliupan.com/t/118385933144821760/org.fdroid.fdroid_1023050.apk",
+		"size":"11.85MB",
+		"instruct":"非常好用的开源应用商店\n在设置->储存库 中添加以下镜像:https://mirrors.tuna.tsinghua.edu.cn/fdroid/repo/?fingerprint=43238D512C1E5EB2D6569F4A3AFBF5523418B82E0A3ED1552770ABB9A9C9CCAB\n官方:f-droid.org\n清华源:https://mirrors.tuna.tsinghua.edu.cn/help/fdroid/"
+	},
+	"RD远程连接":{
+		"url":"https://d.feiliupan.com/t/118385933144821760/RD.apk",
+		"size":"42MB",
+		"instruct":"可以远程连接电脑的工具"
+	},
+	"Telegram":{
+		"url":"https://d.feiliupan.com/t/118385933144821760/Telegram.apk",
+		"size":"77MB",
+		"instruct":"Telegram手机版"
+	},
+	"星空视频壁纸":{
+		"url":"https://d.feiliupan.com/t/118385933144821760/星空视频壁纸.apk",
+		"size":"11.58MB",
+		"instruct":"一个挺好用的壁纸软件"
+	}
+}
