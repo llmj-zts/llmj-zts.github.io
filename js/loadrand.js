@@ -6,7 +6,7 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 	ment.style.backgroundImage='url('+backgroundimg[rand].url+')';
 	var wal=document.getElementsByName("下载壁纸");
 	wal[0].addEventListener("click",()=>{
-		alert("因为浏览器的安全要求，我无法强制发起下载请求，想要你自己右键保存图片")
+		alert("因为浏览器的安全要求，我无法强制发起下载请求，需要你自己右键保存图片")
 		window.open(backgroundimg[rand].url,"_blank")
 	});
 })
@@ -135,6 +135,7 @@ download.addEventListener('mouseout',()=>download.textContent=text);
 document.addEventListener('visibilitychange',change);
 //按时间变颜色
 date();
+
 
 
 
