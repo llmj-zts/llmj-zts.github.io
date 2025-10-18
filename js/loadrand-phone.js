@@ -25,6 +25,10 @@ function download(name){
 		window.open(url,"_self");
 	})
 }
+function showmenu(){
+	menu.style.display="block";
+}
+menu.style.display="none";
 function kun(){
 	isMouseDown=true;
 	jumpkunnumber+=1;
@@ -34,6 +38,7 @@ function kun(){
 	var opacity=0;
 	var size=0;
 	var sizeadd=5;
+	var level=0;
 	const otherjumpkun=jumpkunnumber;
 	const imgplay=listimg[randomnumber]
 	music.play();
@@ -66,11 +71,17 @@ function kun(){
 		mykun.clearRect(-100,-100,ikun.width,ikun.height);
 		mykun.drawImage(imgplay,-50,-50,size,size);
 		ikun.style.opacity=opacity;
+		if(level>17){
+			music.pause();
+			mykun.clearRect(-100,-100,ikun.width,ikun.height);
+			showmenu();
+			return;
+		}
 		if(isMouseDown){
 			size+=sizeadd;
 			opacity+=0.02;
-			if(size>150){sizeadd=-5;}
-			if(size<100){sizeadd=5;}
+			if(size>150){sizeadd=-5;level+=1;}
+			if(size<100){sizeadd=5;level+=1;}
 			requestAnimationFrame(drawkun);
 		}else{
 			music.pause();
