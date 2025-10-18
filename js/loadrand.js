@@ -10,7 +10,7 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 		window.open(backgroundimg[rand].url,"_blank")
 	});
 })
-//一下所有直链均来自https://up.ly93.cc/（我哭死,不限大小且不限速,用了好久都没删我上传的）
+//以下所有直链均来自https://up.ly93.cc/（我哭死,不限大小且不限速,用了好久都没删我上传的）
 const randmusic=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/07273409337d9fa9/j.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e64416e0f13fafba/n.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/faad2da895e72f61/t.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c1ae83a0262c6a74/m.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/6ce8581ce79ef4ee/lq.mp3']
 const randimg=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/92a11213c1856a49/kunb.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cfe8b65d22b5939b/kun.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/acd78ceeb8937b00/memes.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/d51aba0b8c73f1e9/kunkun.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a35233f165390bb9/lq.png']
 const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢']
@@ -135,6 +135,7 @@ download.addEventListener('mouseout',()=>download.textContent=text);
 document.addEventListener('visibilitychange',change);
 //按时间变颜色
 date();
+
 
 
 
