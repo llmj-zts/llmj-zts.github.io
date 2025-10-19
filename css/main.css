@@ -121,7 +121,7 @@ body{
 	background-attachment: fixed;
 	background-position: center;
 }
-#id{
+#ikun{
 	position: fixed;/*固定位置*/
 	top: 0;
 	left: 0;
@@ -140,4 +140,5 @@ body{
 	color: #0055ff;
 	user-select: none;
 }
+
 
