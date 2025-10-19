@@ -121,7 +121,7 @@ body{
 	background-attachment: fixed;
 	background-position: center;
 }
-canvas{
+#id{
 	position: fixed;/*固定位置*/
 	top: 0;
 	left: 0;
@@ -140,3 +140,4 @@ canvas{
 	color: #0055ff;
 	user-select: none;
 }
+
