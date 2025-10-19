@@ -15,7 +15,7 @@ const randmusic=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41
 const randimg=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/92a11213c1856a49/kunb.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cfe8b65d22b5939b/kun.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/acd78ceeb8937b00/memes.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/d51aba0b8c73f1e9/kunkun.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a35233f165390bb9/lq.png']
 const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢']
 const titlerun=['乌蒙山连着山外山','大河向东流啊']
-const musicrun=["https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/81593dafdbc9ecf1/奢香夫人.mp3",'https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37f749355dc35735/好汉歌.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/ef3951ef80c606ff/最炫民族风.mp3']
+const musicrun=["https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/81593dafdbc9ecf1/奢香夫人.mp3",'https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37f749355dc35735/好汉歌.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/ef3951ef80c606ff/最炫民族风.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/820fc0a83ef55163/可可托海的牧羊人.mp3']
 const timerun=['#aaffff','#00aaff','#0055ff','#0000ff']
 const ikun=document.getElementById("ikun");
 const title=document.getElementById("(～￣▽￣)～");
@@ -135,6 +135,7 @@ download.addEventListener('mouseout',()=>download.textContent=text);
 document.addEventListener('visibilitychange',change);
 //按时间变颜色
 date();
+
 
 
 
