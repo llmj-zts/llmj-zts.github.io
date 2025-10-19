@@ -10,9 +10,16 @@
 			if(window.navigator.userAgent.toUpperCase().includes("ANDROID")){
 				window.location.href="https://zts.llmj.dpdns.org/html-phone/index.html";
 			}
-			else{
+			else if(window.navigator.userAgent.toUpperCase().includes("WINDOWS")){
 				window.location.href="https://zts.llmj.dpdns.org/html/index.html";
 			}
+			else if(window.navigator.userAgent.toUpperCase().includes("LINUX")){
+				window.location.href="https://zts.llmj.dpdns.org/main/index.html";
+			}
+			else if(window.navigator.userAgent.toUpperCase().includes("IPHONE")||window.navigator.userAgent.toUpperCase().includes("MAC OS")){
+				document.write("不支持苹果，以后也不会支持，请换安卓或windows或linux访问本网站");
+			}
+			else{document.write(window.navigator.userAgent);}
 		</script>
 	</body>
 </html>
