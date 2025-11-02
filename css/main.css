@@ -106,7 +106,8 @@ button{
 
 a{
 	text-decoration: none;
-	font-family: "华文琥珀";
+	font-family: "华文琥珀",cursive;
+	font-weight: bold;
 	font-size: 30px;
 	color: #0055ff;
 	user-select: none;//防止没事复制
@@ -140,5 +141,3 @@ body{
 	color: #0055ff;
 	user-select: none;
 }
-
-
