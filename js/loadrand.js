@@ -13,9 +13,9 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 //以下所有直链均来自https://up.ly93.cc/（我哭死,不限大小且不限速,用了好久都没删我上传的）
 const randmusic=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/07273409337d9fa9/j.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e64416e0f13fafba/n.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/faad2da895e72f61/t.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c1ae83a0262c6a74/m.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/6ce8581ce79ef4ee/lq.mp3']
 const randimg=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/92a11213c1856a49/kunb.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/cfe8b65d22b5939b/kun.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/acd78ceeb8937b00/memes.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/d51aba0b8c73f1e9/kunkun.png','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a35233f165390bb9/lq.png']
-const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢']
-const titlerun=['乌蒙山连着山外山','大河向东流啊','苍茫的天涯是我的爱','那月的雨也没能拦住你','你说到底为什么？都是我的错']
-const musicrun=["https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/81593dafdbc9ecf1/奢香夫人.mp3",'https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37f749355dc35735/好汉歌.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/ef3951ef80c606ff/最炫民族风.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/820fc0a83ef55163/可可托海的牧羊人.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2cdb76b76d42d5fc/全是爱.mp3']
+const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢','还知道要回来？']
+const titlerun=['乌蒙山连着山外山','大河向东流啊','苍茫的天涯是我的爱','那月的雨也没能拦住你','你说到底为什么？都是我的错','好听吗？']
+const musicrun=["https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/81593dafdbc9ecf1/奢香夫人.mp3",'https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37f749355dc35735/好汉歌.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/ef3951ef80c606ff/最炫民族风.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/820fc0a83ef55163/可可托海的牧羊人.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2cdb76b76d42d5fc/全是爱.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/83ae4ecf96e2c6e3/SoldOut.mp3']
 const timerun=['#aaffff','#00aaff','#0055ff','#0000ff']
 const ikun=document.getElementById("ikun");
 const title=document.getElementById("(～￣▽￣)～");
@@ -135,6 +135,7 @@ download.addEventListener('mouseout',()=>download.textContent=text);
 document.addEventListener('visibilitychange',change);
 //按时间变颜色
 date();
+
 
 
 
