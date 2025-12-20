@@ -11,7 +11,7 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 	});
 })
 //以下所有直链均来自https://up.ly93.cc/（我哭死,不限大小且不限速,用了好久都没删我上传的）
-const randmusic=['https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/07273409337d9fa9/j.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e64416e0f13fafba/n.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/faad2da895e72f61/t.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c1ae83a0262c6a74/m.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/6ce8581ce79ef4ee/lq.mp3']
+const randmusic=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/31919d7cb72ad69e/j.mp3','n','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/39cc67a2b07d7887/t.mp3','m','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/4df8cc708c473c6e/lq.mp3']
 const randimg=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e21ac9eb350fa156/kunb.png','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/8c743ddbd249822a/kun.png','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/390e9ae6ab4d977a/memes.png','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/416ee3089cd0be26/kunkun.png','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/31eb38549184b64f/lq.png']
 const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢','还知道要回来？']
 const titlerun=['乌蒙山连着山外山','大河向东流啊','苍茫的天涯是我的爱','那月的雨也没能拦住你','你说到底为什么？都是我的错','好听吗？']
@@ -135,6 +135,7 @@ download.addEventListener('mouseout',()=>download.textContent=text);
 document.addEventListener('visibilitychange',change);
 //按时间变颜色
 date();
+
 
 
 
