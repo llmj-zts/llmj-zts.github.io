@@ -11,11 +11,29 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 	});
 })
 //以下所有直链均来自https://up.ly93.cc/（我哭死,不限大小且不限速,用了好久都没删我上传的）
-const randmusic=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/31919d7cb72ad69e/j.mp3','n','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/39cc67a2b07d7887/t.mp3','m','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/4df8cc708c473c6e/lq.mp3']
-const randimg=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e21ac9eb350fa156/kunb.png','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/8c743ddbd249822a/kun.png','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/390e9ae6ab4d977a/memes.png','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/416ee3089cd0be26/kunkun.png','https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/31eb38549184b64f/lq.png']
+const randmusic=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/31919d7cb72ad69e/j.mp3',
+				 'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c68d67d70b195ccb/n.mp3',
+				 'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/39cc67a2b07d7887/t.mp3',
+				 'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2e62c7108b3abd80/m.mp3',
+				 'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/4df8cc708c473c6e/lq.mp3']
+
+const randimg=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e21ac9eb350fa156/kunb.png',
+			   'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/8c743ddbd249822a/kun.png',
+			   'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/390e9ae6ab4d977a/memes.png',
+			   'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/416ee3089cd0be26/kunkun.png',
+			   'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/31eb38549184b64f/lq.png']
+
+const musicrun=["https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/bd7d9648d6d3541d/奢香夫人.mp3",
+				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2df3a07e8c1a4546/好汉歌.mp3',
+				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a115db5bb513c8bc/最炫民族风.mp3',
+				'可可托海的牧羊人.mp3',
+				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/abd72324f41ca208/全是爱.mp3',
+				'SoldOut.mp3']
+
+
+
 const randtitle=['嘻嘻嘻','儿子回来啦','-','又是美好的一天','你还在等什么呢','还知道要回来？']
 const titlerun=['乌蒙山连着山外山','大河向东流啊','苍茫的天涯是我的爱','那月的雨也没能拦住你','你说到底为什么？都是我的错','好听吗？']
-const musicrun=["https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/81593dafdbc9ecf1/奢香夫人.mp3",'https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/37f749355dc35735/好汉歌.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/ef3951ef80c606ff/最炫民族风.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/820fc0a83ef55163/可可托海的牧羊人.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2cdb76b76d42d5fc/全是爱.mp3','https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/83ae4ecf96e2c6e3/SoldOut.mp3']
 const timerun=['#aaffff','#00aaff','#0055ff','#0000ff']
 const ikun=document.getElementById("ikun");
 const title=document.getElementById("(～￣▽￣)～");
@@ -135,6 +153,7 @@ download.addEventListener('mouseout',()=>download.textContent=text);
 document.addEventListener('visibilitychange',change);
 //按时间变颜色
 date();
+
 
 
 
