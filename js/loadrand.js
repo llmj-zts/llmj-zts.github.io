@@ -26,8 +26,8 @@ const randimg=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf6
 const musicrun=["https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/bd7d9648d6d3541d/奢香夫人.mp3",
 				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2df3a07e8c1a4546/好汉歌.mp3',
 				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a115db5bb513c8bc/最炫民族风.mp3',
-				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/99c33cfeaa2ff337/可可托海的牧羊人.mp3',
-				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/abd72324f41ca208/全是爱.mp3',
+				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1a477709c5c0f6e7/可可托海的牧羊人.mp3',
+				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/035379acf28c5497/全是爱.mp3',
 				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/177cfe23d60875ff/SoldOut.mp3']
 
 
@@ -153,6 +153,7 @@ download.addEventListener('mouseout',()=>download.textContent=text);
 document.addEventListener('visibilitychange',change);
 //按时间变颜色
 date();
+
 
 
 
