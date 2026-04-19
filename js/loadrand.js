@@ -10,25 +10,25 @@ $.getJSON("https://zts.llmj.dpdns.org/picture/img.json",function(data){
 		window.open(backgroundimg[rand].url,"_blank")
 	});
 })
-//以下所有直链均来自https://up.ly93.cc/（我哭死,不限大小且不限速,用了好久都没删我上传的）
-const randmusic=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/31919d7cb72ad69e/j.mp3',
-				 'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/c68d67d70b195ccb/n.mp3',
-				 'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/39cc67a2b07d7887/t.mp3',
-				 'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2e62c7108b3abd80/m.mp3',
-				 'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/4df8cc708c473c6e/lq.mp3']
+//直链可能来自https://up.ly93.cc/已经被删惨了
+const randmusic=['https://zts.llmj.dpdns.org/music/j.mp3',
+				 'https://zts.llmj.dpdns.org/music/n.mp3',
+				 'https://zts.llmj.dpdns.org/music/t.mp3',
+				 'https://zts.llmj.dpdns.org/music/m.mp3',
+				 'https://zts.llmj.dpdns.org/music/lq.mp3']
 
-const randimg=['https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/e21ac9eb350fa156/kunb.png',
-			   'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/8c743ddbd249822a/kun.png',
-			   'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/390e9ae6ab4d977a/memes.png',
-			   'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/416ee3089cd0be26/kunkun.png',
-			   'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/31eb38549184b64f/lq.png']
+const randimg=['https://zts.llmj.dpdns.org/picture/kunb.png',
+			   'https://zts.llmj.dpdns.org/picture/kun.png',
+			   'https://zts.llmj.dpdns.org/picture/memes.png',
+			   'https://zts.llmj.dpdns.org/picture/kunkun.png',
+			   'https://zts.llmj.dpdns.org/picture/lq.png']
 
-const musicrun=["https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/bd7d9648d6d3541d/奢香夫人.mp3",
-				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/2df3a07e8c1a4546/好汉歌.mp3',
-				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/a115db5bb513c8bc/最炫民族风.mp3',
-				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1a477709c5c0f6e7/可可托海的牧羊人.mp3',
-				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/035379acf28c5497/全是爱.mp3',
-				'https://cik07-cos.7moor-fs2.com/im/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/177cfe23d60875ff/SoldOut.mp3']
+const musicrun=["https://zts.llmj.dpdns.org/music/奢香夫人.mp3",
+				'https://zts.llmj.dpdns.org/music/好汉歌.mp3',
+				'https://zts.llmj.dpdns.org/music/最炫民族风.mp3',
+				'https://zts.llmj.dpdns.org/music/可可托海的牧羊人.mp3',
+				'https://zts.llmj.dpdns.org/music/全是爱.mp3',
+				'https://zts.llmj.dpdns.org/music/SoldOut.mp3']
 
 
 
